@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AK Desktop & Laptop Services</title>
+<style>
+body{font-family:Arial, sans-serif;margin:0;background:#f4f4f4}
+header{background:#0a3d62;color:white;padding:20px;text-align:center}
+nav{background:#1e6fa8;padding:10px;text-align:center}
+nav a{color:white;margin:0 15px;text-decoration:none;font-weight:bold}
+section{padding:40px;background:white;margin:20px;border-radius:8px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.card{background:#f9f9f9;padding:20px;border-radius:8px;text-align:center}
+footer{background:#0a3d62;color:white;text-align:center;padding:20px}
+.button{display:inline-block;background:#25D366;color:white;padding:12px 20px;border-radius:6px;text-decoration:none;margin-top:10px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>AK Desktop & Laptop Services</h1>
+<p>Fast & Reliable Computer Repair in Alwal</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+<h2>Welcome</h2>
+<p>We provide professional laptop and desktop repair services including SSD upgrades, screen replacement, Windows installation, virus removal and more.</p>
+<a class="button" href="https://wa.me/919030205019">Chat on WhatsApp</a>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="services">
+<div class="card"><h3>Laptop Repair</h3><p>Complete laptop repair and servicing.</p></div>
+<div class="card"><h3>Desktop Repair</h3><p>Fix slow or damaged desktops.</p></div>
+<div class="card"><h3>SSD Upgrade</h3><p>Speed up your computer instantly.</p></div>
+<div class="card"><h3>Screen Replacement</h3><p>Laptop screen repair and replacement.</p></div>
+<div class="card"><h3>Virus Removal</h3><p>Clean malware and viruses.</p></div>
+<div class="card"><h3>Windows Installation</h3><p>Install and optimize Windows.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p><strong>Phone:</strong> +91 9030205019</p>
+<p><strong>Location:</strong> Alwal, Hyderabad</p>
+<p><strong>Hours:</strong> 9:00 AM – 9:00 PM</p>
+<a class="button" href="https://wa.me/919030205019">WhatsApp Now</a>
+</section>
+
+<footer>
+<p>© 2026 AK Desktop & Laptop Services</p>
+</footer>
+
+</body>
+</html>
